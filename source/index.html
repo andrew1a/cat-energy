@@ -12,7 +12,16 @@
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo" href="#">
-      <img src="#" width="33" height="38" alt="логотип">
+      <picture>
+        <source media="(min-width: 1024px)" width="70" height="59" type="image/svg+xml" srcset="./images/svg/logo_d.svg">
+        <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="./images/svg/logo_t.svg">
+        <img src="./images/svg/logo-mobile.svg" width="33" height="38" alt="логотип">
+      </picture>
+      <picture>
+        <source media="(min-width: 1024px)" width="118" height="21" type="image/svg+xml" srcset="../images/svg/logo_text_t.svg">
+        <source media="(min-width: 768px)" width="101" height="18" type="image/svg+xml" srcset="./images/svg/logo_text_t.svg">
+        <img src="./images/svg/logo_text_m.svg" width="101" height="18" alt="логотип текстовый">
+      </picture>
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
