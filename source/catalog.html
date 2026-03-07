@@ -12,7 +12,16 @@
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo" href="#">
-      <img src="#" width="33" height="38" alt="логотип">
+      <picture>
+        <source media="(min-width: 1024px)" width="70" height="59" type="image/svg+xml" srcset="./images/svg/logo_d.svg">
+        <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="./images/svg/logo_t.svg">
+        <img src="./images/svg/logo-mobile.svg" width="33" height="38" alt="логотип">
+      </picture>
+      <picture>
+        <source media="(min-width: 1024px)" width="118" height="21" type="image/svg+xml" srcset="../images/svg/logo_text_t.svg">
+        <source media="(min-width: 768px)" width="101" height="18" type="image/svg+xml" srcset="./images/svg/logo_text_t.svg">
+        <img src="./images/svg/logo_text_m.svg" width="101" height="18" alt="логотип текстовый">
+      </picture>
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
@@ -20,10 +29,10 @@
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
-          <li class="main-nav__item main-nav__item--current">
-            <a class="main-nav__link" href="index.html">Главная</a>
+          <li class="main-nav__item main-nav__item--current">Главная</li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
           </li>
-          <li class="main-nav__item">Каталог продукции</li>
           <li class="main-nav__item">
             <a class="main-nav__link" href="#">Подбор программы</a>
           </li>
@@ -38,7 +47,10 @@
       <div class="products__wrapper">
         <ul class="products__list">
           <li class="products__item">
-            <img class="products__image" src="#" width="68" height="86" alt="фото продукта">
+            <picture>
+              <source media=" (min-width: 768px)" width="161" height="172" type="image/png" srcset="./images/catalog1_tabl@1x.png 1x, ./images/catalog1_tabl@2x.png 2x">
+              <img src="./images/catalog1_mob@1x.png" width="68" height="86" srcset="./images/catalog1_mob@2x.png 2x" alt="с курицей маленькая упаковка">
+            </picture>
             <h3 class="products__title">Cat Energy PRO 500 г</h3>
             <div class="products__description">
               <p class="products__weight">
@@ -57,7 +69,11 @@
             <button class="products__button" type="button">Заказать</button>
           </li>
           <li class="products__item">
-            <img class="products__image" src="#" width="68" height="86" alt="фото продукта">
+            <picture>
+              <source media="(min-width: 1024px)" width="172" height="196" type="image/png" srcset="./images/catalog2_desk@1x.png 1x, ./images/catalog2_desk@2x.png 2x">
+              <source media=" (min-width: 768px)" width="168" height="206" type="image/png" srcset="./images/catalog2_tabl@1x.png 1x, ./images/catalog2_tabl@2x.png 2x">
+              <img src="./images/catalog2_mob@1x.png" width="84" height="100" srcset="./images/catalog2_mob@2x.png 2x" alt="с курицей большая упаковка">
+            </picture>
             <h3 class="products__title">Cat Energy PRO 1000 г</h3>
             <div class="products__description">
               <p class="products__weight">
@@ -76,7 +92,10 @@
             <button class="products__button" type="button">Заказать</button>
           </li>
           <li class="products__item">
-            <img class="products__image" src="#" width="68" height="86" alt="фото продукта">
+            <picture>
+              <source media=" (min-width: 768px)" width="163" height="174" type="image/png" srcset="./images/catalog3_tabl@1x.png 1x, ./images/catalog3_tabl@2x.png 2x">
+              <img src="./images/catalog3_mob@1x.png" width="68" height="78" srcset="./images/catalog3_mob@2x.png 2x" alt="с рыбой маленькая упаковка">
+            </picture>
             <h3 class="products__title">Cat Energy PRO 500 г</h3>
             <div class="products__description">
               <p class="products__weight">
@@ -95,7 +114,11 @@
             <button class="products__button" type="button">Заказать</button>
           </li>
           <li class="products__item">
-            <img class="products__image" src="#" width="68" height="86" alt="фото продукта">
+            <picture>
+              <source media="(min-width: 1024px)" width="172" height="196" type="image/png" srcset="./images/catalog4_desk@1x.png 1x, ./images/catalog4_desk@2x.png 2x">
+              <source media=" (min-width: 768px)" width="168" height="200" type="image/png" srcset="./images/catalog4_tabl@1x.png 1x, ./images/catalog4_tabl@2x.png 2x">
+              <img src="./images/catalog4_mob@1x.png" width="84" height="100" srcset="./images/catalog4_mob@2x.png 2x" alt="с рыбой большая упаковка">
+            </picture>
             <h3 class="products__title">Cat Energy PRO 1000 г</h3>
             <div class="products__description">
               <p class="products__weight">
@@ -114,7 +137,10 @@
             <button class="products__button" type="button">Заказать</button>
           </li>
           <li class="products__item">
-            <img class="products__image" src="#" width="68" height="86" alt="фото продукта">
+            <picture>
+              <source media=" (min-width: 768px)" width="161" height="172" type="image/png" srcset="./images/catalog5_tabl@1x.png 1x, ./images/catalog5_tabl@2x.png 2x">
+              <img src="./images/catalog5_mob@1x.png" width="68" height="86" srcset="./images/catalog5_mob@2x.png 2x" alt="с гречкой маленькая упаковка">
+            </picture>
             <h3 class="products__title">Cat Energy PRO 500 г</h3>
             <div class="products__description">
               <p class="products__weight">
@@ -134,7 +160,11 @@
           </li>
           </li>
           <li class="products__item">
-            <img class="products__image" src="#" width="68" height="86" alt="фото продукта">
+            <picture>
+              <source media="(min-width: 1024px)" width="172" height="196" type="image/png" srcset="./images/catalog6_desk@1x.png 1x, ./images/catalog6_desk@2x.png 2x">
+              <source media=" (min-width: 768px)" width="168" height="200" type="image/png" srcset="./images/catalog6_tabl@1x.png 1x, ./images/catalog6_tabl@2x.png 2x">
+              <img src="./images/catalog6_mob@1x.png" width="84" height="100" srcset="./images/catalog6_mob@2x.png 2x" alt="с гречкой большая упаковка">
+            </picture>
             <h3 class="products__title">Cat Energy PRO 1000 г</h3>
             <div class="products__description">
               <p class="products__weight">
@@ -153,7 +183,10 @@
             <button class="products__button" type="button">Заказать</button>
           </li>
           <li class="products__item">
-            <img class="products__image" src="#" width="68" height="86" alt="фото продукта">
+            <picture>
+              <source media=" (min-width: 768px)" width="163" height="174" type="image/png" srcset="./images/catalog7_tabl@1x.png 1x, ./images/catalog7_tabl@2x.png 2x">
+              <img src="./images/catalog7_mob@1x.png" width="72" height="84" srcset="./images/catalog7_mob@2x.png 2x" alt="Рис">
+            </picture>
             <h3 class="products__title">Cat Energy PRO 500 г</h3>
             <div class="products__description">
               <p class="products__weight">
@@ -247,29 +280,34 @@
   </main>
   <footer class="main-footer">
     <div class="main-footer__wrapper">
-      <div class="main-footer__logo"></div>
+      <div class="main-footer__logo">
+        <img src="./images/svg/footer-logo_text.svg" width="128" height="24" alt="логотип текстовый">
+      </div>
       <div class="main-footer__social social">
         <ul class="social__list">
           <li class="social__item social__item--vk">
             <a class="social__link" href="#">
               <span class="visully-hidden">Вконтакте</span>
+              <img src="./images/svg/vkontakte.svg" width="28" height="22" alt="Вконтакте">
             </a>
           </li>
           <li class="social__item social__item--youtube">
             <a class="social__link" href="#">
               <span class="visully-hidden">YouTube</span>
+              <img src="./images/svg/youtube.svg" width="28" height="22" alt="YouTube">
             </a>
           </li>
           <li class="social__item social__item--Telegram">
             <a class="social__link" href="#">
               <span class="visully-hidden">Telegram</span>
+              <img src="./images/svg/telegram.svg" width="28" height="22" alt="Telegram">
             </a>
           </li>
         </ul>
       </div>
       <div class="main-footer__copyright copyright">
         <p class="copyright__text">HTML Academy</p>
-        <img class="copyright__logo" src="#" width="27" height="34" alt="логотип HTML Academy">
+        <img class="copyright__logo" src="./images/svg/academy_logo.svg" width="27" height="34" alt="логотип HTML Academy">
       </div>
     </div>
   </footer>
