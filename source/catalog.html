@@ -273,7 +273,11 @@
           </div>
         </div>
         <div class="contacts__map">
-          <img class="contacts__image" src="#" width="320" height="362" alt="карта г.Санкт-Петербург">
+          <picture>
+            <source media="(min-width: 1024px)" width="1440" height="400" type="image/jpeg" srcset="./images/map_desk@1x.jpg 1x, ./images/map_desk@2x.jpg 2x">
+            <source media=" (min-width: 768px)" width="768" height="400" type="image/jpeg" srcset="./images/map_tabl@1x.jpg 1x, ./images/map_tabl@2x.jpg 2x">
+            <img src="./images/map_mob@1x.jpg" width="320" height="362" srcset="./images/map_mob@2x.jpg 2x" alt="место расположения компании на карте">
+          </picture>
         </div>
       </div>
     </section>
