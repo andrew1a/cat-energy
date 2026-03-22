@@ -1,4 +1,7 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее */
 body {
-  font-family: "lato", sans-serif;
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 18px;
+  color: $color-text;
 }
