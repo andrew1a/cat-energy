@@ -18,11 +18,16 @@
 }
 
 .programs__slogan {
-
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
 }
 
 .programs__button {
-
+  background-color: $bc-green;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .programs__list {
@@ -34,7 +39,20 @@
 }
 
 .programs__item-title {
+  font-family: $secondary-font;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
 
+.programs__button-more {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
 }
 
 .programs__description {
