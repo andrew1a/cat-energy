@@ -1,0 +1,32 @@
+.card-add {
+
+}
+
+.card-add__title {
+  font-family: $secondary-font;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.card-add__boxing {
+  vertical-align: middle;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.card-add-prod__price {
+  vertical-align: middle;
+  letter-spacing: 0;
+}
+
+.card-add__button {
+  background-color: $bc-green;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}

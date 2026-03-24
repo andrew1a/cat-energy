@@ -4,9 +4,35 @@
 
 .card__title {
   font-family: $secondary-font;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 24px;
   color: #222222;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.card__description {
   letter-spacing: 0;
 }
 
+.card__key {
+  text-align: center;
+}
+
+.card__value {
+  text-align: center;
+}
+
+.card__button {
+  background-color: $bc-green;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.card__description {
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-align: center;
+}
