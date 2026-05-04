@@ -1,21 +1,11 @@
-.main-nav {
-
-}
-
-.main-nav__wrapper {
-
-}
 
 .main-nav__toggle {
-
-}
-
-.main-nav__list {
-
-}
-
-.main-nav__item {
-
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../../icons/stack.svg#Logo_mobile");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .main-nav__link {
@@ -27,6 +17,3 @@
   text-decoration: none;
 }
 
-.main-nav__item--current {
-
-}
