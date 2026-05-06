@@ -1,5 +1,22 @@
 .main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.main-header__toggle {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../../icons/stack.svg#Logo_mobile");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (width <= 768px) {
+  .main-nav.show + .main-header__toggle {
+    background-image: url("../../icons/stack.svg#academy_logo");
+  }
 }
 
 .main-header__logo {

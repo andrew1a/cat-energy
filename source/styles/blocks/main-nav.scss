@@ -1,12 +1,4 @@
 
-.main-nav__toggle {
-  display: block;
-  width: 40px;
-  height: 40px;
-  background-image: url("../../icons/stack.svg#Logo_mobile");
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 .main-nav__link {
   font-family: $secondary-font;
@@ -17,3 +9,15 @@
   text-decoration: none;
 }
 
+.main-nav.show .main-nav__wrapper {
+  height: auto;
+}
+
+@media (width <= 768px) {
+  .main-nav__wrapper {
+    position: absolute;
+    height: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+}
