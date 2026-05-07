@@ -36,7 +36,18 @@
 }
 
 .programs__item {
+  position: relative;
+}
 
+.programs__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 67px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url("../../icons/stack.svg#cat_back1_m");
 }
 
 .programs__item-title {
@@ -44,6 +55,7 @@
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
+  padding-top: 50px;
 }
 
 .programs__button-more {
