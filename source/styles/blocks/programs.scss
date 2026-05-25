@@ -15,6 +15,14 @@
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
+
+  @media (width >= 768px) {
+    margin-left: 53px;
+  }
+
+  @media (width >= 1200px) {
+    margin-left: 214px;
+  }
 }
 
 .programs__slogan {
@@ -32,7 +40,13 @@
 }
 
 .programs__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 
+  @media (width >= 1200px) {
+    display: flex;
+  }
 }
 
 .programs__item {
@@ -43,11 +57,25 @@
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
-  width: 67px;
-  height: 50px;
+  left: 20px;
+  width: 50px;
+  height: 53px;
   background-color: rgba(255, 255, 255, 0.5);
   background-image: url("../../icons/stack.svg#cat_back1_m");
+
+  @media (width >= 768px) {
+    left: 400px;
+    background-image: url("../../icons/stack.svg#cat_back1_t");
+    width: 200px;
+    height: 211px;
+  }
+
+  @media (width >= 1200px) {
+    left: 52px;
+    background-image: url("../../icons/stack.svg#cat_back1_d");
+    width: 100px;
+    height: 106px;
+  }
 }
 
 .programs__item-title {
@@ -55,8 +83,20 @@
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
-  padding-top: 50px;
+  margin-left: 90px;
+  margin-bottom: 29px;
+
+  @media (width >= 768px) {
+    margin-left: 53px;
+    margin-bottom: 24px;
+  }
+
+  @media (width >= 1200px) {
+    margin-left: 214px;
+    margin-bottom: 73px;
+  }
 }
+
 
 .programs__button-more {
   font-family: $secondary-font;
@@ -66,8 +106,19 @@
   text-decoration: none;
   text-align: center;
   color: #000000;
+  margin-left: 20px;
+
+  @media (min-width: 768px) {
+    margin-left: 53px;
+  }
 }
 
 .programs__description {
+  width: 227px;
+  margin-left: 20px;
 
+  @media (min-width: 768px) {
+    width: 340px;
+    margin-left: 53px;
+  }
 }
