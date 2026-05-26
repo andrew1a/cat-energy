@@ -3,7 +3,10 @@
 }
 
 .main-footer__wrapper {
-
+  @media (width >= 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .main-footer__social {
